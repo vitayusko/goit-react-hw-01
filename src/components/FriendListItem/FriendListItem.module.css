@@ -1,0 +1,27 @@
+.wrapper {
+  margin-top: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100px;
+}
+
+.text {
+  color: #2e2f42;
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

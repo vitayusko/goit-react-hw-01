@@ -1,0 +1,35 @@
+.table {
+  margin-top: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #040303;
+  border-collapse: collapse;
+}
+
+.trHead {
+  color: rgb(252, 252, 252);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.thHead {
+  font-weight: bold;
+  padding: 5px;
+  background: #282424;
+  border: 1px solid #040303;
+}
+
+.tdBoby {
+  border: 1px solid #dddddd;
+  padding: 5px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}

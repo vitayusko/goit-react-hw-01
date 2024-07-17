@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid rgb(36, 36, 36);
+  background-color: rgb(214, 216, 218);
+  padding: 10px 10px;
+  width: 400px;
+  gap: 10px;
+}
+
+.profileImg {
+  border-radius: 100%;
+  background-color: rgb(64, 62, 62);
+  width: 150px;
+  height: 150px;
+}
+
+.textName {
+  color: #2e2f42;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.textData {
+  color: #747476;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: regular;
+  line-height: normal;
+}
+
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #3e3e3f;
+  width: 100%;
+  padding: 10px;
+}
+
+.textItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2e2f42;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  gap: 10px;
+}
+
+.textSpan {
+  font-weight: bold;
+}
